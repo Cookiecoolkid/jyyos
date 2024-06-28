@@ -1,5 +1,4 @@
 # jyyos
-Recording and Learning code related to OS from NJU-2024-operation-system course by jyy
 
 ## Project code is taken from NJU-2024-operation-system by jyy.
 ## Please check [https://jyywiki.cn/OS/2024/](https://jyywiki.cn/OS/2024/)
@@ -91,8 +90,6 @@ $ ./mini-rv32ima ./bin/fib.rv32i-bin 10
 ```
 
 即可在 *a0* 寄存器中得到斐波那契数列的第 10 项数值.
-
-![mini-rv32ima-1](mini-rv32ima-1.png)
 
 *CPU-State* 的定义如下:
 
@@ -278,7 +275,7 @@ $ strace ./minimal
 > Everything is a State Machine.
 
 C 程序本质也是一个状态机：
-![hanoi-1](hanoi-1.png)
+- 状态由变量数据与栈帧组成
 
 那么非递归的汉诺塔的状态即为：
 ```c
