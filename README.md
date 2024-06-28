@@ -1,5 +1,5 @@
-## All code is taken from NJU-2024-operation-system by jyy.**
-## please check [https://jyywiki.cn/OS/2024/](https://jyywiki.cn/OS/2024/)
+## All code is taken from NJU-2024-operation-system by jyy.
+## Please check [https://jyywiki.cn/OS/2024/](https://jyywiki.cn/OS/2024/)
 
 ## 下面仅展示部分项目的部分代码及部分解释，完整项目及代码请查看源码
 
@@ -46,9 +46,6 @@ typedef struct {
 // OR gate: Returns true if at least one input is true.
 #define OR(X, Y)    (NAND(NOT(X), NOT(Y)))
 ```
-
-示例代码即可模拟如下的电路：
-![logisim](logisim.png)
 
 Code:
 ```c
