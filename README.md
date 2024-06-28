@@ -1,4 +1,4 @@
-## All code is taken from NJU-2024-operation-system by jyy.
+## Project code is taken from NJU-2024-operation-system by jyy.
 ## Please check [https://jyywiki.cn/OS/2024/](https://jyywiki.cn/OS/2024/)
 
 ## 下面仅展示部分项目的部分代码及部分解释，完整项目及代码请查看源码
